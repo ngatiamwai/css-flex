@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    margin: 15vh;
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+    align-items: center;
+}
+.cars{
+    display: flex;
+    color: hsla(0, 0%, 100%, 0.75);
+    height: 60vh;
+    padding: 5vh;
+}
+.sedans{
+    background: hsl(31, 77%, 52%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+    width: 30vh;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.suvs{
+    background: hsl(184, 100%, 22%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    width: 30vh;
+    align-items: center;
+}
+.luxury{
+    background: hsl(179, 100%, 13%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 0 10px 10px 0;
+    width: 30vh;
+    align-items: center;
+}
+button{
+    background-color: white;
+    border: 0;
+    height: 5vh;
+    width: 20vh;
+    border-radius: 50vh;
+    font-family: 'Outfit', sans-serif;
+
+}
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    margin: 5vh;
+}
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    
+}
